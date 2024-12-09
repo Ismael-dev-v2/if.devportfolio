@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #212224;
+  /* background-color: #ffffff; */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* arrow hover effect on cards */
+.card-icon {
+  transform: translateX(-2%);
+  transition: all .3s ease-in-out;
+}
+
+.card:hover .card-icon {
+  opacity: 1;
+  transform: translateX(2%);
+}
+
+/* dot flicker animation */
+.pulse {
+  width: 9px;
+  height: 9px;
+  background-color: rgb(86, 252, 71);
+  border-radius: 50%;
+  animation: pulsed .5s infinite alternate;
+}
+
+@keyframes pulsed {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.paper {
+  -webkit-filter: drop-shadow(5px 5px 5px #a8a8a8);
+  filter: drop-shadow(0px 5px 10px #ffffff49);
+}
+
+.not-found {
+  font-family: "Delius Unicase", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+
+.not-found-text {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* /////////// */
+.return {
+  width: fit-content;
+}
+
+.return:hover.arrow {
+  transform: translateX(2%);
+}
+
+.fondo {
+  height: 140vh !important;
+  z-index: 10; 
+}
+
+@media (max-width: 360px) {
+  input {
+    width: 150px;
+    max-width: 130px;
+    min-width: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}
