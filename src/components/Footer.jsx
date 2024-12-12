@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <div className="border-t border-t-gray-600">
       <h2 className="text-5xl font-bold mt-20 mr-16 max-sm:mr-0 max-sm:text-[34px]">
-        Let’s work together!
+        Listo para el trabajo!
       </h2>
 
       <Link
         to="/contact"
         className="flex bg-[#343639] w-32 my-7 py-3 px-6 rounded-full font-semibold text-sm hover:scale-105 hover:transition-all hover:ease-in-out max-sm:w-full max-sm:justify-center"
       >
-        <p>Contact</p>
+        <p>Contacto</p>
         <img src={arrow} className="ml-4 h-5" />
       </Link>
 

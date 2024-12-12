@@ -19,6 +19,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+a {
+  cursor: pointer;
+}
+
 /* arrow hover effect on cards */
 .card-icon {
   transform: translateX(-2%);

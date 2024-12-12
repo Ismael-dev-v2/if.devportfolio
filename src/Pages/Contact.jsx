@@ -64,8 +64,8 @@ const Contact = () => {
           </Fade>
 
           <Fade direction="up" delay="10" triggerOnce={true}>
-            <h1 className="text-6xl font-bold mb-9 max-sm:text-[40px]">Contact</h1>
-            <p className="text-[#888b8f]">Let's Collaborate on a new project!</p>
+            <h1 className="text-6xl font-bold mb-9 max-sm:text-[40px]">Contacto</h1>
+            <p className="text-[#888b8f]">Listo para colaborar en un nuevo proyecto? ¡No dudes en contactarme!</p>
           </Fade>
 
           <Fade direction="up" triggerOnce={true}>
@@ -73,7 +73,7 @@ const Contact = () => {
           </Fade>
         </div>
 
-        <p className="mb-9 font-semibold">Send me a message!</p>
+        <p className="mb-9 font-semibold">Enviame un correo!</p>
         <form className="flex-col flex" onSubmit={handleSubmit}>
           <label className="max-sm:flex">
             <input
@@ -108,7 +108,7 @@ const Contact = () => {
             type="submit"
             className="font-semibold bg-slate-100 text-stone-950 rounded-lg p-3 mt-2 hover:bg-slate-300 transition-all ease-in"
           >
-            Send
+            Enviar
           </button>
         </form>
 

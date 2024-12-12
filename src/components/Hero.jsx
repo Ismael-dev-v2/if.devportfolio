@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar.jpeg'
 import Icons from './Icons'
 import { Fade } from 'react-awesome-reveal'
 
@@ -18,7 +18,7 @@ const Hero = () => {
           {/* here change your name and add or reduce font size of P tag and H1 */}
           <Fade direction="up" delay="40" triggerOnce={true}>
             <h1 className="text-[4rem] leading-tight font-bold max-sm:text-[2.8rem]">
-              Soy Ismael Fuentes.
+              Ismael Fuentes.
               <p className="text-[2.9rem] max-sm:text-[2.0rem]">
                 <span className="text-[#6F6F6F]">Frontend developer.</span>
               </p>
