@@ -26,7 +26,7 @@ const Icons = () => {
 
         <a
           target="blank"
-          href='/public/Ismael-Fuentes-curriculum.pdf'
+          href='/Ismael-Fuentes-curriculum.pdf'
           download="Ismael-Fuentes-curriculum.pdf"
           className="flex justify-center items-center bg-[#343639] mr-3 w-32 my-7 py-3 px-6 rounded-full font-semibold text-sm hover:scale-105 hover:transition-all hover:ease-in-out max-sm:my-0 max-sm:w-[14rem]"
         >
