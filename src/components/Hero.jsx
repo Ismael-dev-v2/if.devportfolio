@@ -19,8 +19,9 @@ const Hero = () => {
           <Fade direction="up" delay="40" triggerOnce={true}>
             <h1 className="text-[4rem] leading-tight font-bold max-sm:text-[2.8rem]">
               Ismael Fuentes.
-              <p className="text-[2.9rem] max-sm:text-[2.0rem]">
-                <span className="text-[#6F6F6F]">Frontend developer.</span>
+              <p className="text-[2.9rem] max-sm:text-[2.0rem] flex flex-col ">
+                <span className="text-[#6F6F6F]">Desarrollador Frontend.</span>
+                <span className='text-[#6F6F6F] text-[15px]'>Trainee.</span>
               </p>
             </h1>
           </Fade>
@@ -31,12 +32,19 @@ const Hero = () => {
         </Fade>
 
         <Fade direction="up" delay="60" triggerOnce={true}>
-          <p className="text-[#888b8f] w-[520px] max-sm:w-[365px] max-sm:text-center">
-            Frontend developer Trainee.
-            <br /> <br />
-            Tengo habilidades en HTML5, CSS3, JavaScript, los frameworks que uso son Tailwind,
-            ReactJS, y tengo conocimiento en NodeJS, NPM, PNPM, Git and Github.
-          </p>
+          <div className="text-[#888b8f] w-[520px] max-sm:w-[365px] max-sm:text-center">
+            <br />
+            <div className='i-icons'>
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-node-js"></i>
+              <i class="fa-brands fa-npm"></i>
+              <i class="fa-brands fa-git-alt"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
         </Fade>
       </header>
     </section>

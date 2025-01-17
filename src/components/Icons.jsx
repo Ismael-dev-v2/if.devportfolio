@@ -5,7 +5,7 @@ import { CgFileDocument } from 'react-icons/cg'
 const Icons = () => {
   return (
     <>
-      <div className="flex my-5 max-sm:flex-col max-sm:items-center max-sm:py-6">
+      <div className="flex my-3 max-sm:flex-col max-sm:items-center max-sm:py-6">
         <a
           target="blank"
           href="mailto:if.dev327@gmail.com"

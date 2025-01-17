@@ -86,6 +86,48 @@ a {
   z-index: 10; 
 }
 
+.i-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 36px;
+}
+
+.fa-html5:hover {
+  color: #E5532D;
+  transition: 0.4s;
+}
+
+.fa-css3-alt:hover {
+  color: #39ACDD;
+  transition: 0.4s;
+}
+
+.fa-js:hover {
+  color: #F7E025;
+  transition: 0.4s;
+}
+
+.fa-react:hover {
+  color: #81E0FD;
+  transition: 0.4s;
+}
+
+.fa-node-js:hover {
+  color: #69A063;
+  transition: 0.4s;
+}
+
+.fa-npm:hover {
+  color: #CD3E3D;
+  transition: 0.4s;
+}
+
+.fa-git-alt:hover {
+  color: #F05539;
+  transition: 0.3s;
+}
+
 @media (max-width: 360px) {
   input {
     width: 150px;
