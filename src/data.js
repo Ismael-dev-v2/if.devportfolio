@@ -23,6 +23,8 @@ export const projects = [
     name: 'ClothesMarket',
     title: 'ClothesMarket',
     category: 'React',
+    category2: 'JS',
+    category3: 'E-commerce',
     // class: 'work__img',
     url1: 'https://github.com/Ismael-dev-v2/Clothes',
     url2: 'https://clothesmarket2.netlify.app',
@@ -40,6 +42,8 @@ export const projects = [
     name: 'ColorPaleteGenerator',
     title: 'ColorPaleteGenerator',
     category: 'React',
+    category2: 'JS',
+    category3: 'Generador de colores',
     url1: 'https://github.com/Ismael-dev-v2/ColorPalateGenerator',
     url2: 'https://colorpaletegenerator.netlify.app',
     resume:
@@ -54,6 +58,8 @@ export const projects = [
     name: 'SbeamClone',
     title: 'SbeamClone',
     category: 'React',
+    category2: 'JS',
+    category3: 'CSS',
     url1: 'https://github.com/',
     url2: 'https://sbeamclone.netlify.app',
     resume:
@@ -72,6 +78,8 @@ export const projects = [
     name: 'Chat React',
     title: 'Chat React',
     category: 'React',
+    category2: 'JS',
+    category3: 'Socket.io',
     url1: 'https://github.com/Ismael-dev-v2/ChatReactSocket.io',
     url2: '',
     resume:

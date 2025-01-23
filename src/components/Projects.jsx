@@ -19,12 +19,17 @@ const Products = () => {
                   <div className="card-icon opacity-0">
                     <img src={arrow} alt="" className="absolute right-2 top-1" />
                   </div>
-                  <span
-                    // href=""
-                    className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]"
-                  >
-                    {project.category}
-                  </span>
+                  <div className='flex gap-2'>
+                    <span className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]">
+                      {project.category}
+                    </span>
+                    <span className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]">
+                      {project.category2}
+                    </span>
+                    <span className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]">
+                      {project.category3}
+                    </span>
+                  </div>
                   <div className="my-4">
                     <h3 className="text-sm font-semibold">{project.title}</h3>
                   </div>

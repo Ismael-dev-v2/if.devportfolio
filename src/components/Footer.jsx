@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="border-t border-t-gray-600">
       <h2 className="text-5xl font-bold mt-20 mr-16 max-sm:mr-0 max-sm:text-[34px]">
-        Listo para el trabajo!
+        ¡Listo para el trabajo!
       </h2>
 
       <Link
@@ -20,9 +20,9 @@ const Footer = () => {
         <span className="mr-2">© 2024 Simplefolio</span>
         <strong>•</strong>
         <span className="ml-2">
-          Made with ❤️ by
-          <a href="https://github.com/" target="blank" className="ml-1 text-fuchsia-200">
-            Me
+          Hecho con ❤️ amor por
+          <a href="https://github.com/Ismael-dev-v2" target="blank" className="ml-1 text-fuchsia-200">
+            ifdev
           </a>
         </span>
       </p>
