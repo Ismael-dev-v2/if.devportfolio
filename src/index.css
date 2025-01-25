@@ -140,4 +140,18 @@ a {
   .home {
     flex-direction: column;
   }
+
+  .titu {
+    font-size: 16px;
+  }
+
+  .dev {
+    font-size: 27px;
+  }
+
+  .i-icons {
+    gap: 14px;
+    font-size: 28px;
+    justify-content: center;
+  }
 }

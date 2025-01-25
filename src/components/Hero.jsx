@@ -17,13 +17,13 @@ const Hero = () => {
 
           {/* here change your name and add or reduce font size of P tag and H1 */}
           <Fade direction="up" delay="40" triggerOnce={true}>
-            <h1 className="text-[4rem] leading-tight font-bold max-sm:text-[2.8rem]">
-              Ismael Fuentes.
+            <div className="titu text-[4rem] leading-tight font-bold max-sm:text-[2.8rem]">
+              <h1>Ismael Fuentes.</h1>
               <p className="text-[2.9rem] max-sm:text-[2.0rem] flex flex-col ">
-                <span className="text-[#6F6F6F]">Desarrollador Frontend.</span>
+                <h2 className=" dev text-[#6F6F6F]">Desarrollador Frontend.</h2>
                 <span className='text-[#6F6F6F] text-[15px]'>Trainee.</span>
               </p>
-            </h1>
+            </div>
           </Fade>
         </div>
 
