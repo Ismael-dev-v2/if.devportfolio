@@ -18,7 +18,9 @@ const SingleApp = () => {
           Back to Home
         </Link>
       </Fade>
-      <h2 className="text-6xl font-bold mb-9 max-sm:text-[40px]">{projectSelected.title}</h2>
+      <div className='flex flex-wrap w-[100%] break-words'>
+        <h2 className="text-6xl font-bold mb-9 max-sm:text-[40px]">{projectSelected.title}</h2>
+      </div>
       <p className="text-[#888b8f]">{projectSelected.resume}</p>
 
       {/* Links to repo and live */}

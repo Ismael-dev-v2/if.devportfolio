@@ -40,7 +40,7 @@ export const projects = [
     image1: img2,
     image2: img8,
     name: 'ColorPaleteGenerator',
-    title: 'ColorPaleteGenerator',
+    title: 'Color Palete Generator',
     category: 'React',
     category2: 'JS',
     category3: 'Generador de colores',
