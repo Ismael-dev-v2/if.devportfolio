@@ -3,6 +3,13 @@ import { projects } from '../data'
 import arrow from '../assets/svg/arrow.svg'
 import Footer from './Footer'
 import { Fade } from 'react-awesome-reveal'
+import { FaReact, FaJsSquare, FaCss3Alt } from 'react-icons/fa'
+
+const categoryIcons = {
+  React: <FaReact />,
+  JS: <FaJsSquare />,
+  CSS: <FaCss3Alt />,
+}
 
 const Products = () => {
   return (
@@ -14,20 +21,24 @@ const Products = () => {
         <div className="grid grid-cols-2 gap-3">
           {projects.map((project) => (
             <Fade direction="up" delay="40" triggerOnce={true} key={project.id}>
-              <div className="bg-[#343639] p-2 rounded-xl hover:scale-105 ease-in-out duration-300 relative card max-sm:w-[160px]">
+              <div className="bg-[#343639] p-2 rounded-xl hover:scale-105 ease-in-out duration-300 relative card max-sm:w-[160px] h-full">
                 <Link to={`/projects/${project.name}`}>
                   <div className="card-icon opacity-0">
                     <img src={arrow} alt="" className="absolute right-2 top-1" />
                   </div>
-                  <div className='flex gap-2 flex-wrap h-auto'>
-                    <span className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]">
-                      {project.category}
+                  <div className="flex gap-5 flex-wrap h-auto text-center items-center p-1">
+                    <span className=" text-lg rounded-lg font-semibold text-[#81E0FD]">
+                      {categoryIcons[project.category] || project.category}
                     </span>
-                    <span className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]">
-                      {project.category2}
+                    <span className="font-semibold text-base text-[#F7E025] ">
+                      {categoryIcons[project.category2] || project.category2}
                     </span>
-                    <span className="border border-gray-600 px-3 py-1 rounded-lg text-xs font-semibold hover:bg-[#212224]">
-                      {project.category3}
+                    <span
+                      className={` rounded-lg font-semibold ${
+                        project.category3 === 'CSS' ? 'text-[#39ACDD]' : 'text-sm'
+                      }`}
+                    >
+                      {categoryIcons[project.category3] || project.category3}
                     </span>
                   </div>
                   <div className="my-4">
