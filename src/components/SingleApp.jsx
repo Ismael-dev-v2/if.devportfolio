@@ -53,7 +53,7 @@ const SingleApp = () => {
         className="rounded-2xl w-full object-cover max-sm:h-52"
       />
 
-      <p className="text-[#888b8f] mt-14">{projectSelected.info2}</p>
+      <p className="text-[#888b8f] my-14">{projectSelected.info2}</p>
 
       <img
         src={projectSelected.image2}
@@ -62,7 +62,7 @@ const SingleApp = () => {
         className="rounded-2xl w-[100vw] object-cover max-sm:h-52 max-h-[378px]"
       />
 
-<p className="text-[#888b8f] mt-14">{projectSelected.info3}</p>
+      <p className="text-[#888b8f] my-14">{projectSelected.info3}</p>
 
       <Footer />
     </section>
