@@ -15,7 +15,7 @@ const SingleApp = () => {
       <Fade direction="up" triggerOnce={true}>
         <Link to="/" className="flex items-center text-[15px] font-medium py-2 return">
           <BsArrowLeftShort className="bg-slate-100 rounded-full text-slate-950 me-2 arrow" />
-          Back to Home
+          Inicio
         </Link>
       </Fade>
       <div className="flex flex-wrap w-[100%] break-words">

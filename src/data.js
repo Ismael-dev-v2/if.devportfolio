@@ -43,7 +43,6 @@ export const projects = [
     title: 'Color Palete Generator',
     category: 'React',
     category2: 'JS',
-    category3: 'Generador de colores',
     url1: 'https://github.com/Ismael-dev-v2/ColorPalateGenerator',
     url2: 'https://colorpaletegenerator.netlify.app',
     resume:

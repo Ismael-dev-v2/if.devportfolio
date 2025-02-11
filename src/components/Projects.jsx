@@ -26,7 +26,7 @@ const Products = () => {
                   <div className="card-icon opacity-0">
                     <img src={arrow} alt="" className="absolute right-2 top-1" />
                   </div>
-                  <div className="flex gap-5 flex-wrap h-auto text-center items-center p-1">
+                  <div className="flex gap-2 flex-wrap h-auto text-center items-center p-1">
                     <span className=" text-lg rounded-lg font-semibold text-[#81E0FD]">
                       {categoryIcons[project.category] || project.category}
                     </span>
@@ -42,13 +42,13 @@ const Products = () => {
                     </span>
                   </div>
                   <div className="my-4">
-                    <h3 className="text-sm font-semibold">{project.title}</h3>
+                    <h3 className="text-sm font-semibold">{project.name}</h3>
                   </div>
                   <img
                     src={project.image1}
                     alt={project.title}
                     title={project.title}
-                    className="rounded-lg h-32 w-full object-cover max-sm:h-20"
+                    className="rounded-sm h-32 w-full object-cover max-sm:h-20"
                   />
                 </Link>
               </div>

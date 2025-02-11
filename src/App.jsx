@@ -19,7 +19,7 @@ function App() {
   }, [pathname])
 
   return (
-    <div className="flex justify-center items-center mt-4 max-sm:mx-6 max-sm:mt-12">
+    <div className="flex justify-center items-center mt-4 max-sm:mx-6 max-sm:mt-6">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
