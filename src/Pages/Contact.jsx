@@ -49,9 +49,9 @@ const Contact = () => {
 
   return (
     <>
-    <div className={`fondo z-10 w-screen absolute bg-black opacity-60 ${validation ===  false ? 'hidden' : ''}`}></div>
-    <form className={`absolute bg-zinc-800 text-white flex  items-center justify-center gap-5 p-10 flex-col z-20 ${validation ===  false ? 'hidden' : ''}`}>
-      <h1 className='text-3xl'>Mensaje enviado correctamente!</h1>
+    <div className={`fondo z-10 absolute bg-black opacity-60 ${validation ===  false ? 'hidden' : ''}`}></div>
+    <form className={`absolute bg-zinc-800 text-white flex  items-center justify-center gap-10 p-8 rounded-lg flex-col z-20 ${validation ===  false ? 'hidden' : ''}`}>
+      <b className='text-3xl'>¡Mensaje enviado correctamente!</b>
       <button onClick={handleClose} className="border p-3 text-lg">cerrar pestaña</button>  
     </form>  
       <div className="h-full mb-14 max-sm:w-full">
@@ -59,13 +59,13 @@ const Contact = () => {
           <Fade direction="up" triggerOnce={true}>
             <Link to="/" className="flex items-center text-[15px] font-medium py-2 return">
               <BsArrowLeftShort className="bg-slate-100 rounded-full text-slate-950 me-2 arrow" />
-              Back to Home
+              Inicio
             </Link>
           </Fade>
 
           <Fade direction="up" delay="10" triggerOnce={true}>
             <h1 className="text-6xl font-bold mb-9 max-sm:text-[40px]">Contacto</h1>
-            <p className="text-[#888b8f]">Listo para colaborar en un nuevo proyecto? ¡No dudes en contactarme!</p>
+            <p className="text-[#888b8f]">¿Quieres colaborar en un nuevo proyecto? ¡No dudes en contactarme!</p>
           </Fade>
 
           <Fade direction="up" triggerOnce={true}>
@@ -80,7 +80,7 @@ const Contact = () => {
               required
               className="rounded-md p-3 pr-12 mr-3 border border-transparent focus:outline-none max-sm:max-w-[165px]"
               type="text"
-              placeholder="Name"
+              placeholder="Nombre"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -98,7 +98,7 @@ const Contact = () => {
             <textarea
               required
               className="rounded-md p-3 w-full h-36 mt-3 border border-transparent focus:outline-none"
-              placeholder="Message"
+              placeholder="Mensaje"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
