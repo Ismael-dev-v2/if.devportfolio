@@ -21,7 +21,6 @@ const Hero = () => {
               <h1>Ismael Fuentes.</h1>
               <p className="text-[2.9rem] max-sm:text-[2.0rem] flex flex-col ">
                 <h2 className=" dev text-[#6F6F6F]">Desarrollador Frontend.</h2>
-                <span className='text-[#6F6F6F] text-[15px]'>Trainee.</span>
               </p>
             </div>
           </Fade>
