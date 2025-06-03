@@ -1,12 +1,12 @@
 import img1 from './assets/img/work1.jpeg'
-import img2 from './assets/img/work2.jpeg'
+import img2 from './assets/img/work2.jpg'
 import img3 from './assets/img/work3.jpeg'
 import img4 from './assets/img/work4.jpeg'
 import img5 from './assets/img/work5.jpg'
 import img6 from './assets/img/work6.png'
 
 import img7 from './assets/img/info1.jpeg'
-import img8 from './assets/img/info2.jpeg'
+import img8 from './assets/img/info2.jpg'
 import img9 from './assets/img/info3.jpeg'
 import img10 from './assets/img/info4.jpeg'
 import img11 from './assets/img/info5.png'
@@ -39,16 +39,16 @@ export const projects = [
     id: 2,
     image1: img2,
     image2: img8,
-    name: 'ColorPaleteGenerator',
-    title: 'Color Palete Generator',
+    name: 'MatchProject',
+    title: 'Match Project',
     category: 'React',
     category2: 'JS',
-    url1: 'https://github.com/Ismael-dev-v2/ColorPalateGenerator',
-    url2: 'https://colorpaletegenerator.netlify.app',
+    url1: 'https://github.com/Ismael-dev-v2/Match-project',
+    url2: 'https://github.com/Ismael-dev-v2/Match-project',
     resume:
-      'Desarrollé una página web que genera 40 tonos distintos basados en el color que ingresa el usuario. Para crear el generador de colores, utilicé la librería Values.js, que me permitió generar variaciones del color ingresado',
+      'Desarrollé una aplicación web para la fundacion patitas pirque enfocada en el rescate y adopcion de animales en situacion de calle',
     info1:
-      'implementé la funcionalidad para copiar el código de color, lo que facilita al usuario trabajar con los colores generados. Todo el proyecto está gestionado mediante useState, que me permite manejar los cambios de estado de manera eficiente y dinámica.',
+      'Me encargué de desarrollar la vista del adoptante, donde se muestran las mascotas compatibles con las preferencias del usuario, junto con su información, la solicitud de adopción y su estado. También desarrollé el perfil del usuario y la funcionalidad para actualizar su información.',  
   },
   {
     id: 3,
