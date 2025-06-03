@@ -44,7 +44,7 @@ export const projects = [
     category: 'React',
     category2: 'JS',
     url1: 'https://github.com/Ismael-dev-v2/Match-project',
-    url2: 'https://github.com/Ismael-dev-v2/Match-project',
+    url2: 'https://match-adopcion-mascotas.vercel.app',
     resume:
       'Desarrollé una aplicación web para la fundacion patitas pirque enfocada en el rescate y adopcion de animales en situacion de calle',
     info1:
