@@ -43,6 +43,7 @@ export const projects = [
     title: 'Match Project',
     category: 'React',
     category2: 'JS',
+    category3: 'Foo talent Group',
     url1: 'https://github.com/Ismael-dev-v2/Match-project',
     url2: 'https://match-adopcion-mascotas.vercel.app',
     resume:
